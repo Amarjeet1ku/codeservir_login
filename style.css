@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #8e919d;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+ 
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  /* transition: transform 0.6s ease-in-out; */
+}
+
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.sign-up-container {
+  left: 0;
+  width: 50%;
+  z-index: 3;
+  transform: translateX(100%);
+}
+
+/* .overlay-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+} */
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+} */
+
+/* .overlay-panel {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+} */
+
+/* .overlay-left {
+  transform: translateX(-20%);
+}
+
+.overlay-right {
+  right: 0;
+  transform: translateX(0);
+} */
+
+.form-container form {
+  background: #3cb9bdfa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.form-container h1 {
+  margin-bottom: 20px;
+  color: #333180;
+}
+
+.form-container input {
+  padding: 15px;
+  margin: 10px 0;
+  width: 80%;
+  border: 1px solid #160202;
+  border-radius: 5px;
+}
+
+.form-container button {
+  padding: 15px 30px;
+  margin: 10px 0;
+  width: 80%;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .ghost {
+  background-color: transparent;
+  border-color: #333;
+  color: #333;
+}
+
+.overlay-panel button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.overlay a {
+  color: #333;
+  text-decoration: none;
+}
+
+.overlay a:hover {
+  text-decoration: underline;
+} */
